@@ -1,0 +1,381 @@
+/* .logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-bottom: 10px;
+} */
+
+
+#logo{
+    display: grid;
+    grid-template-columns: 1fr;
+
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+.roditeljmeni div{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
+    font-size: 1.3em;
+    border: white, 2px;
+    padding: 15px;
+} 
+
+a:link{
+    text-decoration: none;
+    color: white;
+    
+}
+
+a:visited{
+    color: white;
+}
+
+
+
+a:hover{
+    color: rgb(226, 222, 222);
+    text-decoration: underline;
+   
+}
+
+a:active{
+    color: green;
+}
+
+.roditeljmeni{
+    margin-bottom: 100px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+.paragraf{
+    display: grid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    
+
+}
+
+#h1{
+    font-size: 2.3em;
+
+    justify-content: left;
+    align-self: start;
+    
+    margin-bottom: 100px;
+}
+
+#tekst{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 1.7em;
+
+    text-align: center;
+    line-height: 1.9;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.7em;
+}
+
+#divforma{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 1.2em;
+
+    resize: vertical;
+
+    justify-items: center;
+    align-items: center;
+
+    
+    border-radius: 10px;
+    background-color: #e4e3e3;
+    padding: 30px;
+
+    margin-bottom: 50px;
+
+}
+
+/* #forma{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+
+
+    
+    
+} */
+
+input[type = text], select{
+    padding: 15px 20px;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: .9em;
+
+    display: inline-block;
+    
+    width: 100%;
+
+}
+
+#tekstarea{
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[type = submit]{
+    background-color: rgba(26, 156, 26, 0.767);
+    color: white;
+    padding: 15px 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+
+input[type = submit]:hover{
+    background-color: rgb(5, 163, 5);
+}
+
+input[type = reset]{
+    background-color: grey;
+    padding: 10px 20px ;
+    border-radius: 10px;
+    color: white;
+}
+
+input[type = reset]:hover{
+    background-color: rgb(66, 66, 66);
+}
+
+
+#obrisi{
+    padding: 15px 20px;
+    background-color: rgba(255, 58, 58, 0.925);
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    
+}
+
+#obrisi:hover{
+    background-color: red;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+/* 
+#naslovh1{
+    text-align: center;
+    font-size: 2.0em;
+}
+
+.kontakt{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    justify-items: center;
+    align-items: start;
+
+    font-size: 1.9em;
+}
+
+.gmail{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    font-size: 1.9em;
+}
+
+#gmail a{
+    color: black;
+} */
+
+
+.paragraf1{
+    animation: fadeEffect 2s;
+}
+
+@keyframes fadeEffect{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+
+
+#datepicker{
+    margin-bottom: 140px;
+    /* background-color: rgba(39, 39, 39, 0.548); */
+    /* font-size: 1.2em; */
+}
+
+
+
+#accordion{
+    margin-bottom: 100px;
+}
+
+#accordion h3{
+    font-size: 1.0em;
+    color: black;
+    background-color: #e4e3e3;
+    text-align: center;
+}
+
+#accordion p {
+    color: black;
+    text-align: center;
+}
+
+
+
+#vrhDugme4{
+    display: none;
+    position: fixed;
+    right: 30px;
+    bottom: 110px;
+    border: none;
+    outline: none;
+    background-color: rgba(214, 219, 211, 0.842);
+    color: white;
+    cursor: pointer;
+    padding: 20px 15px;
+    border-radius: 15px;
+    font-size: 1.2em;
+}
+
+#vrhDugme4:hover{
+    background-color: rgb(75, 75, 75);
+}
+
+
+
+
+
+
+
+
+
+
+
+.futer div{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+
+}
+
+.futer{
+    background: rgba(214, 219, 211, 0.842);
+    display: grid;
+    padding: 20px;
+    font-size: 1em;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    justify-items: center;
+    align-items: center;
+
+}
+
+#kopi{
+    text-decoration: underline;
+}
+
+#telefon{
+    line-height: 1.2em;
+    font-style: oblique;
+    
+
+}
+
+.fa{
+    padding: 5px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+
+}
+.fa:hover{
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 50%;
+}
+
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+    border-radius: 50%;
+}
+
+.fa-linkedin{
+    background: #007bb5;
+    color: white;
+    border-radius: 50%;
+}
+
+.fa-instagram{
+    background-image: linear-gradient(rgb(194, 3, 178), rgb(255, 73, 73));
+    color: white;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,363 @@
+@media only screen and (max-width:600px){
+
+    .logo1{
+        width: auto;
+        height: auto;
+    }
+
+
+
+    #dugme{
+        margin-bottom: 20px;
+    }
+
+    .button{
+        padding: 15px 40px;
+        font-size: .7em;
+    }
+
+
+    .malina{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #malina2{
+        width: auto;
+        height: auto;
+    }
+
+    .kupina{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #kupina2{
+        width: auto;
+        height: auto;
+    }
+
+    .sljiva{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #sljiva2{
+        width: auto;
+        height: auto;
+    }
+
+    .borovnica{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #borovnica2{
+        width: auto;
+        height: auto;
+    }
+
+    .futer{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px;
+        width: auto;
+    }
+    .futer div{
+        width: auto;
+    }
+
+    .rodieljmeni{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: auto;
+    }
+    .rodieljmeni div{
+        width: auto;
+    }
+
+    .obrada{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: auto;
+    }
+
+    .obrada div{
+        margin-bottom: 20px;
+        width: auto;
+    }
+
+    #maline img{
+        width: auto;
+        height: auto;
+    }
+
+
+
+}
+
+
+@media only screen and (min-width:600px){
+
+
+    #slikedugme{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    } 
+
+
+    
+
+    #dugme{
+        margin-bottom: 20px;
+    }
+    
+    .button{
+        padding: 15px 40px;
+        font-size: .7em;
+    }
+
+
+
+
+    .malina{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #malina2{
+        width: auto;
+        height: auto;
+    }
+
+    .kupina{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #kupina2{
+        width: auto;
+        height: auto;
+    }
+
+    .sljiva{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #sljiva2{
+        width: auto;
+        height: auto;
+    }
+
+    .borovnica{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #borovnica2{
+        width: auto;
+        height: auto;
+    }
+
+
+    .obrada{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .obrada div{
+        margin-bottom: 20px;
+    }
+
+    #malinee{
+        width: auto;
+        height: auto;
+    }
+
+
+}
+
+
+@media only screen and (min-width:768px){
+    #slikedugme{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    } 
+
+    #dugme{
+        margin-bottom: 20px;
+    }
+    
+    .button{
+        padding: 15px 40px;
+        font-size: .7em;
+    }
+
+
+
+    .malina{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .kupina{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .sljiva{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .borovnica{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+    /* #malina2 img{
+        width: 100%;
+    }
+
+    #kupina2 img{
+        width: 100%;
+    }
+
+    #sljiva2 img{
+        width: 100%;
+    }
+
+    #borovnica2 img{
+        width: 100%;
+    } */
+
+
+
+    .obrada{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .obrada div{
+        margin-bottom: 20px;
+    }
+
+
+    #maline img{
+        width: 100%;
+        height: auto;
+    }
+
+
+
+}
+
+@media only screen and (min-width:992px){
+
+    #slikedugme{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    } 
+
+    #dugme{
+        margin-bottom: 20px;
+    }
+
+    .button{
+        padding: 15px 40px;
+        font-size: .7em;
+    }
+
+    .malina{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .kupina{
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+
+    .sljiva{
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+
+    .borovnica{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
+
+    .obrada{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .obrada div{
+        margin-bottom: 0px;
+    }
+
+    #maline img{
+        width: 100%;
+        height: auto;
+    }
+    
+
+}
+
+
+
+
+
+@media only screen and (min-width:1200px){
+
+    #slikedugme{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+    } 
+
+    .button{
+        padding: 30px 80px;
+        font-size: 1.2em;
+    }
+
+    .malina{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .kupina{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .sljiva{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .borovnica{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .obrada{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    
+
+
+
+
+
+    
+}

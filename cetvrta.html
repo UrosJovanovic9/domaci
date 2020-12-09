@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prijava</title>
+    <link rel="stylesheet" href="stil/gridcetvrta.css">
+
+    <link rel="icon" href="slike/appleicon.png", type="img/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+    <script src="skripte/script4.js"></script>
+
+
+
+</head>
+<body>
+
+    <div id="wrap">
+
+
+        <div id="logo">
+
+            <div>
+                <img src="slike/bapple.png" alt="Apple" title="Black apple" class="logo">
+            </div>
+
+        </div>
+
+        
+
+
+
+        <div class="roditeljmeni">
+
+            <div class="onama">
+                <a href="index.html">O nama</a>
+            </div>
+    
+            <div class="proizvodi">
+                <a href="druga.html">Proizvodi</a>
+            </div>
+    
+            <div class="geografija">
+                <a href="treca.html">Geografsko poreklo</a>
+            </div>
+
+            <div class="prijava">
+                <a href="cetvrta.html">Prijava</a>
+            </div>
+
+
+        </div>
+
+
+
+        <div class="paragraf1", id="paragraf1">
+
+            <div id="h1">
+                <h1>Da li ste znali?</h1>
+            </div>
+
+            <div id="tekst">
+                <p>Naša kompanija svake godine u proleće traži nove zaposlene. Kako nam je cilj da se naša proizvodnja što više razvija <br> iz tog
+                    razloga je neophodno da zapošljavamo radnike koji bi radili određeni period u godini (leto i jesen). <br> Ukoliko želite da 
+                    se prijavite za rad kod nas pozivamo Vas da ostavite Vaše podatke kako bi <br> mogli da Vas blagovremeno kontaktiramo kada 
+                    krenu sezonski poslovi. <br> <p style="text-decoration: underline;"> Sve informacije će isključivo biti korišćenje u svrhu zapošljavanja! </p><br>
+                </p> <br>
+            </div>
+
+        </div>
+
+            <h2>Prijava za rad u našoj kompaniji</h2>
+
+
+            <div id="divforma">
+                <form action="", name="Forma", onsubmit="return forma()", id="forma">
+
+                    <label for="kime">Vaše ime: *</label>   <br>
+                    <input type="text", name="ime", id="kime", placeholder="Unesite Vaše ime...", autocomplete="off"> <br>
+
+                    <label for="kprezime">Vaše prezime: *</label> <br> 
+                    <input type="text", name="prezime" id="kprezime",  placeholder="Unesite Vaše prezime...", autocomplete="off" > <br>
+
+                    <label for="drzava">Država iz koje dolazite </label> <br>
+                    <select name="select1" id="drzava">
+                        <option value="RS">Srbija</option>
+                        <option value="BA">Bosna i Hercegovina</option>
+                        <option value="CG">Crna Gora</option>
+
+                    </select>
+
+                    <br>
+
+                    <label for="mesto">Odakle dolazite: *</label> <br>
+                    <input type="text", name="mesto" id="mesto",  placeholder="Mesto odakle dolazite...", autocomplete="off">  <br>
+
+                    <label for="email">Unesite Vaš email: </label> <br>
+                    <input type="text", name="email" id="email",  placeholder="Email...", autocomplete="off"  > <br>
+
+                    <label for="tel">Unesite Vaš broj telefona: *</label> <br>
+                    <input type="text", name="telefon" id="tel", placeholder="Broj telefona...", autocomplete="off"> <br>
+
+                    <label for="prevoz">Da li Vam je potreban prevoz do naše kompanije? *</label> <br>
+                    <input type="radio", name="radioPolje", value="da"> Da <br> 
+                    <input type="radio", name="radioPolje", value="ne"> Ne <br>
+                    <br>
+
+                    <label >Gde želite da radite(možete izabrati više opcija): * <br>
+                    <input type="checkbox", name="check1"> Hladnjača  <br>
+                    <input type="checkbox", name="check2"> Voćnjak <br>
+                    <input type="checkbox", name="check3"> Kao vozač <br>
+
+                    
+
+                    <p>Datum kada biste želeli da počnete sa radom? <input type="text" name="Datum" id="datepicker", placeholder="Izaberite datum...", autocomplete="off"></p> <br> 
+                    
+
+                    <label for="teksarea">Ukoliko imate pitanja pišite nam:</label><br>
+                    <textarea name="tekst" id="tekstarea" cols="50" rows="10"></textarea> <br>
+
+
+                    <!-- <input type="reset" value="OBRIŠI SVE UNESENO" id="obrisi"> <br> -->
+
+                    <!-- <input type="button" onclick="obrisi()" value="OBRIŠI SVE UNESENO" id="obrisi"> -->
+
+                    
+
+                    <input type="submit", value="POŠALJI" id="posalji">
+
+                    <!-- <input type="button" onclick="obrisi()" value="OBRIŠI SVE UNESENO" id="obrisi"> -->
+
+
+                   
+                
+    
+                </form>
+            </div>
+
+
+
+            <input type="button" onclick="obrisi()" value="OBRIŠI SVE UNESENO" id="obrisi">
+            
+
+        
+
+
+
+
+
+
+        <div id="accordion">
+
+            
+                <h3>Da li je prijava putem forme neophodna za zaposlenje?</h3>
+            <div id="p1">
+                <p>
+                   Ne, prijava putem ove forme nije neophodna ukoliko želite da radite kod nas. Možete nas kontaktirati telefonom ili mejlom.
+                </p>
+            </div>
+           
+
+            
+                <h3>Ko se sve može prijaviti za rad u kompaniji?</h3>
+            <div>
+                <p>
+                    U našoj kompaniji se mogu zaposliti sve radno sposobne osobe koji imaju između 18 i 65 godina.
+                </p>
+            </div>
+            
+
+            
+                <h3>Da li su hrana i smeštaj obezbeđeni?</h3>
+            <div>
+               <p>
+                Hrana i smeštaj su obezbeđeni, ali ukoliko ne želite da Vam to bude obezbeđeno naravno da nije obavezno.
+               </p>
+            </div>
+
+            <h3>Koliko vremena traje zaposlenje?</h3>
+            
+            <div>
+                <p>
+                    Vreme zaposlenja zavisi od posla za koji budete odabrani. Postoji mogućnost da budete i zaposleni na neodređeno radno vreme.
+                </p>
+            </div>
+            
+
+
+        </div>
+
+
+
+
+
+        <div>
+            <button onclick="topFun()" id="vrhDugme4">Vrh <br> strane</button>
+        </div>
+
+
+
+
+
+
+
+
+
+        <!-- <div id="naslovh1">
+            <h1>Kontaktirajte nas za dodatne informacije</h1> <br>
+        </div>
+
+        <div class="kontakt">
+
+            <div id="telefon">
+                <h2>Telefon:</h2> +381(31)3899389 
+            </div>
+
+            <div id="fax">
+                <h2>Fax:</h2> +381(31)3899399
+            </div>
+
+            <div id="gmail">
+
+                <h2>Gmail:</h2><a href="https://www.google.com/intl/sr/gmail/about/#"> greenapple@gmail.com</a>
+    
+            </div>
+            
+
+        </div> -->
+
+
+        
+        
+
+        <footer class="futer"> 
+            
+            <!-- <div class="futer"> -->
+
+                <div id="kopi">
+                     <b> Copyright &copy 2020 Green apple - All Rights Reserved </b>
+                </div>
+
+                <div id="mreze">
+                    <a href="https://sr-rs.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+                    <a href="https://twitter.com/login?lang=sr" class="fa fa-twitter" target="_blank"></a>
+                    <a href="https://www.linkedin.com/login" class="fa fa-linkedin" target="_blank"></a>
+                    <a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank"></a>
+                </div>
+    
+                <div id="telefon">
+    
+                    <b>
+                    Telefon: +381(31)3899389 <br>
+                    Fax: +381(31)3899399 <br>
+                    Email: greenapple@gmail.com
+                    </b>
+                   
+    
+                </div>
+
+
+
+        <script src="script4.js"></script>
+
+    </div>
+    
+</body>
+</html>

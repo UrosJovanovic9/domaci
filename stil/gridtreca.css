@@ -1,0 +1,234 @@
+#logo{
+    display: grid;
+    grid-template-columns: 1fr;
+
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+.roditeljmeni div{
+    background-color: rgb(0, 104, 0);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
+    font-size: 1.3em;
+    border: white, 2px;
+    padding: 15px;
+} 
+
+a:link{
+    text-decoration: none;
+    color: white;
+    
+}
+
+a:visited{
+    color: white;
+}
+
+
+
+a:hover{
+    color: rgb(226, 222, 222);
+    text-decoration: underline;
+   
+}
+
+a:active{
+    color: green;
+}
+
+.roditeljmeni{
+    /* margin-bottom: 100px; */
+    background-color: rgb(0, 104, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+#zasadi img{
+    width: 100%;
+   height: 800px;
+
+   margin-bottom: 150px;
+
+}
+
+
+#arilje{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center; 
+
+    margin-bottom: 150px;
+
+    grid-gap: 50px;
+}
+
+
+ #grbtekst{
+     grid-column: 2/ span 2;
+     grid-row: 1/ span 2;
+
+    font-size: 1.5em;
+    line-height: 1.6;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-right: 25px;
+}
+
+
+#hladnjaca{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+
+    margin-bottom: 70px;
+
+    grid-gap: 50px;
+    
+}
+
+#teksthladnjaca{
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 1.6;
+    margin-left: 25px;
+    margin-right: 25px;
+
+    margin-bottom: 50px;
+
+}
+
+
+
+
+
+#vrhDugme3{
+    display: none;
+    position: fixed;
+    right: 30px;
+    bottom: 110px;
+    border: none;
+    outline: none;
+    background-color: rgba(214, 219, 211, 0.842);
+    color: white;
+    cursor: pointer;
+    padding: 20px 15px;
+    border-radius: 15px;
+    font-size: 1.2em;
+}
+
+#vrhDugme3:hover{
+    background-color: rgb(75, 75, 75);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.futer div {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.futer {
+    background: rgba(214, 219, 211, 0.842);
+    display: grid;
+    padding: 20px;
+    font-size: 1em;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    justify-items: center;
+    align-items: center;
+
+}
+
+#kopi {
+    text-decoration: underline;
+}
+
+#telefon {
+    line-height: 1.2em;
+    font-style: oblique;
+
+
+}
+
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 50%;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 50%;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    border-radius: 50%;
+}
+
+.fa-instagram {
+    background-image: linear-gradient(rgb(194, 3, 178), rgb(255, 73, 73));
+    color: white;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+

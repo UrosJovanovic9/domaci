@@ -1,0 +1,219 @@
+
+@media only screen and (max-width:600px){
+    .vocnjak{
+        width: 100%;
+        height: auto;
+    }
+
+    .vocnjak img{
+        margin-bottom: auto;
+    }
+
+    .logo{
+        width: 100%;
+        height: auto;
+    }
+
+    .futer{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .fa{
+        width: auto;
+    }
+
+    .roditeljmeni{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px; 
+        
+    }
+
+    .roditeljmeni div{
+        margin: 0px;
+        padding: 5px;
+    }
+
+
+    .kosmomi, .misija, .vizija{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+        width: 100%;
+        height: auto;
+
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+    .horizontalna{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* #vrhDugme{
+        padding: 5px 5px;
+        right: 0px;
+        bottom: 90px;
+        display: none;
+    } */
+
+    
+
+    .proizvodi{
+        font-size: 1.5em;
+    }
+
+    .slikeproizvoda{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        /* margin-bottom: 20px; */
+    }
+
+    #slika1{
+        width: 100%;
+        height: auto ;
+    }
+
+    #slika2{
+        width: 100%;
+        height: auto;
+    }
+
+    #misija2{
+        order: 1;
+    }
+
+    #tekst2{
+        order: 2;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width:600px){
+
+    .kosmomi, .misija, .vizija{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    /* #vrhDugme{
+        padding: 10px 7px;
+        right: 5px;
+        bottom: 130px;
+    } */
+
+
+    #misija2{
+        order: 1;
+    }
+
+    #tekst2{
+        order: 2;
+    }
+    
+
+    .slikeproizvoda{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (min-width:768px){
+    /* .kosmomi, .misija, .vizija{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    #vrhDugme{
+        padding: 10px 7px;
+        right: 15px;
+    } */
+
+    #misija2{
+        order: 1;
+    }
+
+    #tekst2{
+        order: 2;
+    }
+    
+
+    .slikeproizvoda{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width:992px){
+     .kosmomi, .misija, .vizija{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    #misija2{
+        order: 2;
+    }
+
+    #tekst2{
+        order: 1;
+    }
+
+  
+
+     
+
+    .slikeproizvoda{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+
+
+@media only screen and (min-width:1200px){
+    
+    .slikeproizvoda{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    #misija2{
+        order: 2;
+    }
+
+    #tekst2{
+        order: 1;
+    }
+
+     
+
+} 
