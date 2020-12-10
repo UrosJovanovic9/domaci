@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prijava</title>
     <link rel="stylesheet" href="stil/gridcetvrta.css">
+    <link rel="stylesheet" href="stil/media4.css">
 
     <link rel="icon" href="slike/appleicon.png", type="img/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -79,63 +80,146 @@
             <div id="divforma">
                 <form action="", name="Forma", onsubmit="return forma()", id="forma">
 
-                    <label for="kime">Vaše ime: *</label>   <br>
-                    <input type="text", name="ime", id="kime", placeholder="Unesite Vaše ime...", autocomplete="off"> <br>
+                   
 
-                    <label for="kprezime">Vaše prezime: *</label> <br> 
-                    <input type="text", name="prezime" id="kprezime",  placeholder="Unesite Vaše prezime...", autocomplete="off" > <br>
+                    <div class="red">
+                        <label for="kime">Vaše ime: *</label>   <br>
+                    </div>
 
-                    <label for="drzava">Država iz koje dolazite </label> <br>
-                    <select name="select1" id="drzava">
-                        <option value="RS">Srbija</option>
-                        <option value="BA">Bosna i Hercegovina</option>
-                        <option value="CG">Crna Gora</option>
-
-                    </select>
-
-                    <br>
-
-                    <label for="mesto">Odakle dolazite: *</label> <br>
-                    <input type="text", name="mesto" id="mesto",  placeholder="Mesto odakle dolazite...", autocomplete="off">  <br>
-
-                    <label for="email">Unesite Vaš email: </label> <br>
-                    <input type="text", name="email" id="email",  placeholder="Email...", autocomplete="off"  > <br>
-
-                    <label for="tel">Unesite Vaš broj telefona: *</label> <br>
-                    <input type="text", name="telefon" id="tel", placeholder="Broj telefona...", autocomplete="off"> <br>
-
-                    <label for="prevoz">Da li Vam je potreban prevoz do naše kompanije? *</label> <br>
-                    <input type="radio", name="radioPolje", value="da"> Da <br> 
-                    <input type="radio", name="radioPolje", value="ne"> Ne <br>
-                    <br>
-
-                    <label >Gde želite da radite(možete izabrati više opcija): * <br>
-                    <input type="checkbox", name="check1"> Hladnjača  <br>
-                    <input type="checkbox", name="check2"> Voćnjak <br>
-                    <input type="checkbox", name="check3"> Kao vozač <br>
+                    <div class="red2">
+                        <input type="text", name="ime", id="kime", placeholder="Unesite Vaše ime...", autocomplete="off"> <br>
+                    </div>
+                        
 
                     
 
-                    <p>Datum kada biste želeli da počnete sa radom? <input type="text" name="Datum" id="datepicker", placeholder="Izaberite datum...", autocomplete="off"></p> <br> 
-                    
+                    <div class="red">
+                        <label for="kprezime">Vaše prezime: *</label> <br> 
+                    </div>
 
-                    <label for="teksarea">Ukoliko imate pitanja pišite nam:</label><br>
-                    <textarea name="tekst" id="tekstarea" cols="50" rows="10"></textarea> <br>
+                    <div class="red2">
+                        <input type="text", name="prezime" id="kprezime",  placeholder="Unesite Vaše prezime...", autocomplete="off" > <br>
 
-
-                    <!-- <input type="reset" value="OBRIŠI SVE UNESENO" id="obrisi"> <br> -->
-
-                    <!-- <input type="button" onclick="obrisi()" value="OBRIŠI SVE UNESENO" id="obrisi"> -->
-
-                    
-
-                    <input type="submit", value="POŠALJI" id="posalji">
-
-                    <!-- <input type="button" onclick="obrisi()" value="OBRIŠI SVE UNESENO" id="obrisi"> -->
-
+                    </div>
+                        
 
                    
-                
+
+                    <div class="red">
+                        <label for="drzava">Država iz koje dolazite </label> <br>
+                    </div>
+
+                    <div class="red2">
+                        <select name="select1" id="drzava">
+                            <option value="RS">Srbija</option>
+                            <option value="BA">Bosna i Hercegovina</option>
+                            <option value="CG">Crna Gora</option>
+    
+                        </select>
+                        <br>
+                    </div>
+                    
+
+                    
+                   
+                   
+
+                    <div class="red">
+                        <label for="mesto">Odakle dolazite: *</label> <br>
+                    </div>
+                    <div class="red2">
+                        <input type="text", name="mesto" id="mesto",  placeholder="Mesto odakle dolazite...", autocomplete="off">  <br>
+                    </div>
+                    
+
+                    
+                   
+
+                     
+
+                      <div class="red">
+
+                        <label for="email">Unesite Vaš email: </label> <br>
+                    </div>
+
+                    <div class="red2">
+                        <input type="text", name="email" id="email",  placeholder="Email...", autocomplete="off"  > <br>
+                    </div>
+                   
+
+
+                      
+
+                      <div class="red">
+                        <label for="tel">Unesite Vaš broj telefona: *</label> <br>
+                    </div>
+
+                    <div class="red2">
+                        <input type="text", name="telefon" id="tel", placeholder="Broj telefona...", autocomplete="off"> <br>
+                    </div>
+
+
+                        
+                          
+                      
+
+                    
+                      <div class="red">
+                        <label for="prevoz">Da li Vam je potreban prevoz do naše kompanije? *</label> <br>
+                    </div>
+
+                    <div class="red2">
+                        <input type="radio", name="radioPolje", value="da"> Da <br> 
+                        <input type="radio", name="radioPolje", value="ne"> Ne <br>
+                        <br>
+                    </div>
+                        
+
+                      
+
+                      <div class="red">
+
+                        <label >Gde želite da radite(možete izabrati više opcija): * <br>
+                      </div>
+
+                      <div class="red2">
+                        <input type="checkbox", name="check1"> Hladnjača  <br>
+                        <input type="checkbox", name="check2"> Voćnjak <br>
+                        <input type="checkbox", name="check3"> Kao vozač <br>
+
+                      </div>
+                            
+
+                     
+
+                      <div class="red">
+
+                        <p>Datum kada biste želeli da počnete sa radom? <input type="text" name="Datum" id="datepicker", placeholder="Izaberite datum...", autocomplete="off"></p> <br>
+
+                      </div>
+
+                    
+                      <div class="red">
+
+                        <label for="teksarea">Ukoliko imate pitanja pišite nam:</label><br>
+
+                    </div>
+
+                    <div class="red2">
+                        <textarea name="tekst" id="tekstarea" cols="50" rows="10"></textarea> <br>
+                    </div>
+                        
+
+                      
+
+                   
+                      <div class="red">
+                        <input type="submit", value="POŠALJI" id="posalji">
+
+                      </div>
+
+
+                    
     
                 </form>
             </div>
@@ -156,16 +240,16 @@
 
             
                 <h3>Da li je prijava putem forme neophodna za zaposlenje?</h3>
-            <div id="p1">
+            <div class="acc">
                 <p>
-                   Ne, prijava putem ove forme nije neophodna ukoliko želite da radite kod nas. Možete nas kontaktirati telefonom ili mejlom.
+                   Ne, prijava putem ove forme nije neophodna ukoliko želite da radite kod nas.
                 </p>
             </div>
            
 
             
                 <h3>Ko se sve može prijaviti za rad u kompaniji?</h3>
-            <div>
+            <div class="acc">
                 <p>
                     U našoj kompaniji se mogu zaposliti sve radno sposobne osobe koji imaju između 18 i 65 godina.
                 </p>
@@ -174,7 +258,7 @@
 
             
                 <h3>Da li su hrana i smeštaj obezbeđeni?</h3>
-            <div>
+            <div class="acc">
                <p>
                 Hrana i smeštaj su obezbeđeni, ali ukoliko ne želite da Vam to bude obezbeđeno naravno da nije obavezno.
                </p>
@@ -182,7 +266,7 @@
 
             <h3>Koliko vremena traje zaposlenje?</h3>
             
-            <div>
+            <div class="acc">
                 <p>
                     Vreme zaposlenja zavisi od posla za koji budete odabrani. Postoji mogućnost da budete i zaposleni na neodređeno radno vreme.
                 </p>
@@ -208,28 +292,7 @@
 
 
 
-        <!-- <div id="naslovh1">
-            <h1>Kontaktirajte nas za dodatne informacije</h1> <br>
-        </div>
-
-        <div class="kontakt">
-
-            <div id="telefon">
-                <h2>Telefon:</h2> +381(31)3899389 
-            </div>
-
-            <div id="fax">
-                <h2>Fax:</h2> +381(31)3899399
-            </div>
-
-            <div id="gmail">
-
-                <h2>Gmail:</h2><a href="https://www.google.com/intl/sr/gmail/about/#"> greenapple@gmail.com</a>
-    
-            </div>
-            
-
-        </div> -->
+        
 
 
         
@@ -237,8 +300,7 @@
 
         <footer class="futer"> 
             
-            <!-- <div class="futer"> -->
-
+           
                 <div id="kopi">
                      <b> Copyright &copy 2020 Green apple - All Rights Reserved </b>
                 </div>
@@ -263,7 +325,7 @@
 
 
 
-        <script src="script4.js"></script>
+        
 
     </div>
     

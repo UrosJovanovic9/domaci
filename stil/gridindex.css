@@ -1,10 +1,4 @@
-/* .logo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    margin-bottom: 10px;
-} */
+
 
 #logo {
     margin-top: 25px;
@@ -42,6 +36,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
 
 }
 
@@ -122,14 +117,7 @@ a:active {
     margin-bottom: 80px;
 }
 
-/* .kosmomi{
-    animation: fadeEffect 2s;
-}
 
-@keyframes fadeEffect{
-    from {opacity: 0;}
-    to {opacity: 1;}
-} */
 
 
 .kosmomi div {
@@ -240,12 +228,7 @@ a:active {
 
 
 }
-/* 
-.horizontalna {
-    margin-left: 200px;
-    margin-right: 200px;
 
-} */
 
 
 .proizvodi {
@@ -316,7 +299,21 @@ a:active {
 
 
 
+#sat{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
+/* #vreme{
+    justify-self: start;
+    text-align: center;
+} */
+
+#trenutno{
+    justify-self: center;
+    text-align: center;
+
+}
 
 
 

@@ -4,7 +4,7 @@ $(function(){
         collapsible:true
     })
 
-    $("#accordion").css("font-size", "1.8em");
+    $("#accordion").css("font-size", "1.5em");
 
 });
 
@@ -33,24 +33,10 @@ function showFunction(){
 
 $(function(){
     $("#datepicker").datepicker();
-    $("#datepicker").css("background-color", grey);
+    // $("#datepicker").css("background-color", grey);
 });
 
 
-
-
-
-// function potvrda(){
-//     var odg = confirm("Da li zelite da obrisete?");
-
-//     if(odg == true){
-//         document.write("Pritisnuli ste OK!")
-//     }else{
-//         document.write("Pritisnuli ste CANCEL!")
-//     }
-// };
-
-// document.getElementById("obrisi").addEventListener("click",potvrda());
 
 
 
@@ -66,11 +52,7 @@ function forma(){
         return false;
     }
 
-    if(ime.value != ""){
-        $("kime").focus(function(){
-            $("kime").css("border", "3px solid green");
-        });
-    };
+    
 
     if(prezime.value == ""){
         alert("Molimo Vas da unesete Vaše prezime!");
@@ -84,18 +66,12 @@ function forma(){
         return false;
     }
 
-    // if(telefon.value == ""){
-    //     alert("Molimo Vas da unesete broj telefona!")
-    //     telefon.focus();
-    //     return false;
-    // }
+    
 
     if (!(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(Forma.email.value))) {
-        alert("Uneli ste pogresnu email adresu!")
+        alert("Uneli ste pogrešnu email adresu!")
         email.focus();
-        return false;
-
-    
+        return false;    
     }
 
     var brojevi = /^[0-9]+$/;
@@ -105,8 +81,12 @@ function forma(){
        return false;
     }
   
-    alert("Uspešno ste se prijavili!")
+    alert( ime.value + " " + prezime.value + " uspešno ste se prijavili!")
+    return true;
 }
+
+
+
 
 
 function obrisi(){

@@ -1,0 +1,140 @@
+@media only screen and (max-width:600px){
+
+    .logo{
+        width: 100%;
+        height: auto;
+    }
+
+    .roditeljmeni{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px; 
+        
+    }
+
+    .roditeljmeni div{
+        margin: 0px;
+        padding: 5px;
+    }
+    
+    #tekst{
+        text-align: center;
+    }
+
+    input[type = submit], input[type = text], .red, .red2, textarea{
+        width: 75%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    #accordion h3{
+        font-size: .6em;
+    }
+
+    #accordion p{
+        font-size: .6em;
+    }
+
+    #divForma{
+        width: 100%;
+        height: auto;
+    }
+    
+
+    
+
+
+
+
+
+
+    .futer{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .fa{
+        width: auto;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width:600px){
+
+    .logo{
+        width: 100%;
+        height: auto;
+    }
+
+   
+
+    input[type = submit], input[type = text], .red, .red2, textarea{
+        width: 75%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (min-width:768px){
+
+    
+
+    input[type = submit], input[type = text], .red, .red2, textarea{
+        width: 75%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    
+
+    
+}
+
+
+@media only screen and (min-width:992px){
+
+
+    
+
+    input[type = submit], input[type = text], .red, .red2, textarea{
+        width: 75%;
+        height: auto;
+        margin-top: 0;
+    }
+    
+}
+
+
+
+
+@media only screen and (min-width:1200px){
+
+
+    
+
+    input[type = submit], input[type = text], .red, .red2,textarea{
+        width: 75%;
+        height: auto;
+        margin-top: 0;
+    }
+
+
+    
+}

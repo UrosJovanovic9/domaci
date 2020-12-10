@@ -1,0 +1,302 @@
+@media only screen and (max-width:600px){
+
+    .logo{
+        width: 100%;
+        height: auto;
+    }
+
+    .roditeljmeni{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px; 
+        
+    }
+
+    .roditeljmeni div{
+        margin: 0px;
+        padding: 5px;
+    }
+
+    #zasadi2 {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 50px;
+    }
+
+
+    #arilje{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    #grbtekst{
+        grid-column: 1/ span 1;
+        grid-row: 1/ span 1;
+    }
+
+    #grb{
+        width: 100%;
+        height: auto;
+    }
+
+    #park2{
+        width: 100%;
+        height: auto;
+    }
+
+
+    #hladnjaca{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    #hladnjaca1{
+        width: 100%;
+        height: auto;
+    }
+
+    #hladnjaca2{
+        width: 100%;
+        height: auto;
+    }
+
+    .futer{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .fa{
+        width: auto;
+    }
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (min-width:600px){
+
+    .logo{
+        width: 100%;
+        height: auto;
+    }
+
+    
+
+    #zasadi img{
+        width: 100%;
+        height: auto;
+    }
+
+    #arilje{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    #grbtekst{
+        grid-column: 1/ span 1;
+        grid-row: 1/ span 1;
+    }
+
+    
+
+    #hladnjaca{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    #hladnjaca1{
+        width: 100%;
+        height: auto;
+    }
+    #hladnjaca2{
+        width: 100%;
+        height: auto;
+    }
+
+    
+
+}
+
+
+
+@media only screen and (min-width:768){
+
+    .logo{
+        width: 100%;
+        height: auto;
+    }
+
+
+    #zasadi img{
+        width: 100%;
+        height: auto;
+    }
+
+    #arilje{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    #grbtekst{
+        grid-column: 1/ span 1;
+        grid-row: 1/ span 1;
+    }
+
+    #hladnjaca{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    #hladnjaca1{
+        width: 100%;
+        height: auto;
+    }
+    #hladnjaca2{
+        width: 100%;
+        height: auto;
+    }
+
+
+}
+
+
+
+
+@media only screen and (min-width:992px){
+
+    .logo{
+        width: 100%;
+        height: auto;
+    }
+
+    
+
+    #zasadi img{
+        width: 100%;
+        height: 800px;
+    
+       margin-bottom: 150px;
+    
+    }
+
+    #arilje{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        align-items: center; 
+    
+        margin-bottom: 100px;
+    
+        grid-gap: 25px;
+    }
+
+    #grbtekst{
+        grid-column: 2/ span 2;
+        grid-row: 1/ span 2;
+    }
+
+    #hladnjaca{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    #hladnjaca1{
+        width: 100%;
+        height: auto;
+    }
+    #hladnjaca2{
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+
+
+
+@media only screen and (min-width:1200px){
+
+    .logo{
+        width: 100%;
+        height: auto;
+    }
+
+
+    #zasadi img{
+        width: 100%;
+        height: 800px;
+    
+       margin-bottom: 150px;
+    
+    }
+
+    #arilje{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        align-items: center; 
+    
+        margin-bottom: 150px;
+    
+        grid-gap: 50px;
+    }
+
+    #grbtekst{
+        grid-column: 2/ span 2;
+        grid-row: 1/ span 2;
+    }
+
+    #hladnjaca{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    #hladnjaca1{
+        width: 100%;
+        height: auto;
+    }
+    #hladnjaca2{
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    
+
+
+
+}
+
+
+

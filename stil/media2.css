@@ -1,363 +1,474 @@
 @media only screen and (max-width:600px){
 
-    .logo1{
-        width: auto;
+    .logo{
+        width: 100%;
         height: auto;
     }
 
-
-
-    #dugme{
-        margin-bottom: 20px;
-    }
-
-    .button{
-        padding: 15px 40px;
-        font-size: .7em;
-    }
-
-
-    .malina{
+    .roditeljmeni{
         display: grid;
         grid-template-columns: 1fr;
-    }
-    #malina2{
-        width: auto;
+        width: 100%;
         height: auto;
+        margin-bottom: 10px; 
+        
     }
 
-    .kupina{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    #kupina2{
-        width: auto;
-        height: auto;
+    .roditeljmeni div{
+        margin: 0px;
+        padding: 5px;
     }
 
-    .sljiva{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    #sljiva2{
-        width: auto;
-        height: auto;
-    }
-
-    .borovnica{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    #borovnica2{
-        width: auto;
-        height: auto;
-    }
-
-    .futer{
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 20px;
-        width: auto;
-    }
-    .futer div{
-        width: auto;
-    }
-
-    .rodieljmeni{
-        display: grid;
-        grid-template-columns: 1fr;
-        width: auto;
-    }
-    .rodieljmeni div{
-        width: auto;
+    #malinee{
+        width: 100%;
+        height: 500px;
     }
 
     .obrada{
         display: grid;
         grid-template-columns: 1fr;
-        width: auto;
+        justify-items: center;
+        align-items: center;
     }
 
-    .obrada div{
-        margin-bottom: 20px;
-        width: auto;
+
+
+    .button{
+        padding: 15px 40px;
+        font-size: .9em;
+        margin-bottom: 50px;
     }
 
-    #maline img{
-        width: auto;
+
+    #slikedugme{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    #posebno11{
+        width: 100%;
+        height: auto;
+    }
+
+    #posebno22{
+        width: 100%;
+        height: auto;
+    }
+
+    #malina{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    #malinaslika{
+        width: 100%;
+        height: auto;
+    }
+
+
+    #kupina{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    #kupinaslika{
+        width: 100%;
+        height: auto;
+    }
+
+
+    #sljiva{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    #sljivaslika{
+        width: 100%;
+        height: auto;
+    }
+
+    #borovnica{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    #borovnicaslika{
+        width: 100%;
         height: auto;
     }
 
 
 
+    #pmalina, #pkupina, #psljiva, #pborovnica{
+        font-size: 1.3em;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .futer{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .fa{
+        width: auto;
+    }
+
+
 }
+
 
 
 @media only screen and (min-width:600px){
 
-
-    #slikedugme{
+    .obrada{
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
         align-items: center;
-    } 
+    }
+     .button{
+         padding: 15px 40px;
+         font-size: .9em;
+         margin-bottom: 50px;
+     }
+
+     #slikedugme{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    #posebno11{
+        width: 100%;
+        height: auto;
+    }
+
+    #posebno22{
+        width: 100%;
+        height: auto;
+    }
+
+    #malina{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    #malinaslika{
+        width: 100%;
+        height: auto;
+    }
+
+    #kupina{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    #kupinaslika{
+        width: 100%;
+        height: auto;
+    }
+
+    #sljiva{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    #sljivaslika{
+        width: 100%;
+        height: auto;
+    }
+
+    #borovnica{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    #borovnicaslika{
+        width: 100%;
+        height: auto;
+    }
+
 
 
     
 
-    #dugme{
-        margin-bottom: 20px;
-    }
+
+
+
     
-    .button{
-        padding: 15px 40px;
-        font-size: .7em;
-    }
 
 
-
-
-    .malina{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    #malina2{
-        width: auto;
-        height: auto;
-    }
-
-    .kupina{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    #kupina2{
-        width: auto;
-        height: auto;
-    }
-
-    .sljiva{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    #sljiva2{
-        width: auto;
-        height: auto;
-    }
-
-    .borovnica{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    #borovnica2{
-        width: auto;
-        height: auto;
-    }
-
-
-    .obrada{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    .obrada div{
-        margin-bottom: 20px;
-    }
-
-    #malinee{
-        width: auto;
-        height: auto;
-    }
 
 
 }
+
+
 
 
 @media only screen and (min-width:768px){
+
+    .obrada{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .button{
+        padding: 15px 40px;
+        font-size: .9em;
+        margin-bottom: 50px;
+    }
+
     #slikedugme{
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
         align-items: center;
-    } 
-
-    #dugme{
-        margin-bottom: 20px;
     }
+
+
     
-    .button{
-        padding: 15px 40px;
-        font-size: .7em;
-    }
 
-
-
-    .malina{
+    #malina{
         display: grid;
         grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
     }
 
-    .kupina{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    .sljiva{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    .borovnica{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-
-    /* #malina2 img{
+    #malinaslika{
         width: 100%;
+        height: auto;
     }
 
-    #kupina2 img{
-        width: 100%;
-    }
-
-    #sljiva2 img{
-        width: 100%;
-    }
-
-    #borovnica2 img{
-        width: 100%;
-    } */
-
-
-
-    .obrada{
+    #kupina{
         display: grid;
         grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
     }
 
-    .obrada div{
-        margin-bottom: 20px;
+    #kupinaslika{
+        width: 100%;
+        height: auto;
     }
 
+    #sljiva{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
 
-    #maline img{
+    #sljivaslika{
+        width: 100%;
+        height: auto;
+    }
+
+    #borovnica{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    #borovnicaslika{
         width: 100%;
         height: auto;
     }
 
 
 
+
+
+
+
+
+   
+
+
+
+
 }
+
+
+
 
 @media only screen and (min-width:992px){
 
+    .obrada{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .button{
+        padding: 15px 40px;
+        font-size: .9em;
+        margin-bottom: 50px;
+    }
+
     #slikedugme{
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
         align-items: center;
-    } 
-
-    #dugme{
-        margin-bottom: 20px;
     }
 
-    .button{
-        padding: 15px 40px;
-        font-size: .7em;
-    }
-
-    .malina{
+    #malina{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
     }
 
-    .kupina{
+    
+
+
+    #kupina{
         display: grid;
-        grid-template-columns: 1fr;
-       
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
     }
 
-    .sljiva{
-        display: grid;
-        grid-template-columns: 1fr;
-       
-    }
-
-    .borovnica{
-        display: grid;
-        grid-template-columns: 1fr;
-        
-    }
-
-
-    .obrada{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    .obrada div{
-        margin-bottom: 0px;
-    }
-
-    #maline img{
+    #kupinaslika{
         width: 100%;
         height: auto;
     }
-    
+
+    #sljiva{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    #sljivaslika{
+        width: 100%;
+        height: auto;
+    }
+
+
+    #borovnica{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    #borovnicaslika{
+        width: 100%;
+        height: auto;
+    }
+
+
+
+
+
+
 
 }
-
 
 
 
 
 @media only screen and (min-width:1200px){
 
-    #slikedugme{
+    .obrada{
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-items: center;
         align-items: center;
-    } 
+    }
 
     .button{
         padding: 30px 80px;
         font-size: 1.2em;
     }
 
-    .malina{
+    #slikedugme{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
     }
 
-    .kupina{
+    #malina{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
     }
 
-    .sljiva{
+    #kupina{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
     }
 
-    .borovnica{
+    #kupinaslika{
+        width: 100%;
+        height: auto;
+    }
+
+    #sljiva{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
     }
 
+    #sljivaslika{
+        width: 100%;
+        height: auto;
+    }
 
-    .obrada{
+    #borovnica{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
     }
 
-    
+    #borovnicaslika{
+        width: 100%;
+        height: auto;
+    }
 
-
-
-
-
-    
 }
+

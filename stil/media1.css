@@ -1,12 +1,20 @@
 
 @media only screen and (max-width:600px){
+
+    
     .vocnjak{
         width: 100%;
         height: auto;
     }
 
-    .vocnjak img{
-        margin-bottom: auto;
+    .slikavocnjak{
+        margin-bottom: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    .tekst{
+        font-size: 5.2em;
     }
 
     .logo{
@@ -14,16 +22,7 @@
         height: auto;
     }
 
-    .futer{
-        width: 100%;
-        height: auto;
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    .fa{
-        width: auto;
-    }
+    
 
     .roditeljmeni{
         display: grid;
@@ -40,6 +39,8 @@
     }
 
 
+
+
     .kosmomi, .misija, .vizija{
         display: grid;
         grid-template-columns: 1fr;
@@ -53,17 +54,19 @@
         padding: 20px;
     }
 
+    .ko{
+        text-align: center;
+    }
+    .tekst1{
+        text-align: center;
+    }
+
     .horizontalna{
         margin-left: auto;
         margin-right: auto;
     }
 
-    /* #vrhDugme{
-        padding: 5px 5px;
-        right: 0px;
-        bottom: 90px;
-        display: none;
-    } */
+    
 
     
 
@@ -79,12 +82,12 @@
         /* margin-bottom: 20px; */
     }
 
-    #slika1{
+    #slika11{
         width: 100%;
         height: auto ;
     }
 
-    #slika2{
+    #slika22{
         width: 100%;
         height: auto;
     }
@@ -95,6 +98,19 @@
 
     #tekst2{
         order: 2;
+    }
+
+
+
+    .futer{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .fa{
+        width: auto;
     }
 }
 
@@ -138,17 +154,7 @@
 }
 
 @media only screen and (min-width:768px){
-    /* .kosmomi, .misija, .vizija{
-        display: grid;
-        grid-template-columns: 1fr;
-        align-items: center;
-        justify-items: center;
-    }
-
-    #vrhDugme{
-        padding: 10px 7px;
-        right: 15px;
-    } */
+    
 
     #misija2{
         order: 1;
@@ -166,6 +172,7 @@
         align-items: center;
     }
 }
+
 
 @media only screen and (min-width:992px){
      .kosmomi, .misija, .vizija{
